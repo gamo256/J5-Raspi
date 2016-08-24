@@ -9,7 +9,7 @@ board.on("ready", function() {
   // BMP180を使用するためのAltimeterオブジェクトを作成
   // 基準標高を12メートルに設定
   var alt = new five.Altimeter({
-    controller: "BMP180"
+    controller: "BMP180",
     elevation: 12
   });
 
